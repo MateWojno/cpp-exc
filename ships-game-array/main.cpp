@@ -1,19 +1,27 @@
 #include <iostream>
 #include <string> 
 #include <cmath>
-
+#include <array>
+#include <random>
 using namespace std;
 
+void randomizeShips (array<array<bool, 4>,4>& ships)
+{
+    
+}
 
 int main ()
 {
+    array<array<bool, 4>,4> ships;
+    // funkcja do wstawiania statkow w losowych miejscach;
+    
     // We put "1" to indicate there is a ship;
-    bool ships[4][4] = {
-        {0, 1, 1, 0},
-        {0, 1, 1, 0},
-        {0, 1, 1, 0},
-        {0, 1, 1, 0}
-    };
+    // bool ships[4][4] = {
+        // {0, 1, 1, 0},
+        // {0, 1, 1, 0},
+        // {0, 1, 1, 0},
+        // {0, 1, 1, 0}
+    // };
 
     // Keep track of how many hits the player has and how many turns they have played in these variables;
     int hits = 0;
